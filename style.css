@@ -1,0 +1,35 @@
+ *{
+    padding: 0;
+    margin: 0;
+ }
+ .container{
+    border: 2px solid black;
+    width: 70vw;
+    text-align: center;
+    margin: auto;
+
+ }
+
+ .task{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+ }
+
+ .section-A{
+    display: flex;
+    justify-content: space-evenly;
+ }
+ .inputs{
+    /*border: 2px solid red;*/
+    display: flex;
+    justify-content: space-around;
+ }
+ #inp{
+    height: 30px;
+    width: 60%;
+ }
+ button{
+    width: 20%;
+    height: 30px;
+ }
