@@ -6,7 +6,9 @@
     border: 2px solid black;
     width: 70vw;
     text-align: center;
-    margin: auto;
+    margin: 0 auto;
+    margin-top: 10vh;
+    padding: 20px;
 
  }
 
@@ -33,3 +35,11 @@
     width: 20%;
     height: 30px;
  }
+
+ .checked{
+   text-decoration: line-through;
+}
+
+span, button, .checkbox{
+   cursor: pointer;
+}

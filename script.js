@@ -7,7 +7,7 @@ const tasklist=document.querySelector('.task-list')
 add.addEventListener('click',(e)=>{
    if(input.value!=''){
     const str=`<div class="section-A">
-            <input type="checkbox">
+            <input type="checkbox" class="checkbox">
                 <p>${input.value}</p>
             </div>
             <div class="section-B">
@@ -48,5 +48,8 @@ tasklist.addEventListener('click',(e)=>{
         const currTask=e.target.parentElement.parentElement;
         const nextTask=currTask.nextElementSibling;
         nextTask.after(currTask);
+    }
+    else if(taskclass === 'checkbox'){
+        e.target.nextElementSibling.classList.toggle('checked');
     }
 })
